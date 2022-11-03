@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+$cor-verde: #4ea926;
+:host {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.cards{
+  border: 1px solid #76D84B;
+  border-radius: 15px;
+  float: left;
+  padding: 10px;
+  margin: 10px;
+  background: white;
+  text-align: center;
+  height:300px;
+  width: 350px;
+}
+
+.cards a{
+  color: white;
+  background: #4EA926;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.cards a:hover{
+  color: black;
+  background: #76D84B;
+}
+
+.totalconvidados{
+  background: lightblue;
+
+  width: 150px;
+  position: relative;
+  left: 15px;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.totalconfirmados{
+  background: #76D84B;
+  width: 150px;
+  position: relative;
+  left: 15px;
+  padding: 5px;
+  border-radius: 15px;
+}

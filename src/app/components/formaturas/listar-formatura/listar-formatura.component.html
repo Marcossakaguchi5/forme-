@@ -1,0 +1,17 @@
+<div id="container">
+  <img src="../../../../assets/imagem/logo.png">
+  <h1>Formaturas</h1>
+  <a class="submit" routerLink="/cadastrarFormatura">Entrar</a>
+</div>
+<section>
+<div *ngIf="listaFormatura.length>0, else semPensamentos">
+<div *ngFor="let formatura of listaFormatura">
+  <app-formatura [formatura]="formatura"></app-formatura>
+</div>
+</div>
+</section>
+<ng-template #semPensamentos>
+  <div>
+    <p> Ainda nao h'a formaturas cadastradas</p>
+  </div>
+</ng-template>

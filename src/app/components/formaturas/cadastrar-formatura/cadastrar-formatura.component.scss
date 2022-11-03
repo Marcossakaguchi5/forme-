@@ -1,0 +1,88 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.clear{
+  clear: both;
+}
+
+#container1{
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 120px;
+  text-align: center;
+}
+
+#container1 img{
+  width: 120px;
+  height: 120px;
+  margin: -60px;
+  margin-bottom: 30px;
+}
+
+#container1 h1{
+  position: relative;
+  bottom: 30px;
+  padding-bottom: 20px;
+  display: inline;
+}
+
+input.email {
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  margin-bottom: 10px;
+  border: 1px solid #0000005E;
+  border-radius: 10px;
+  margin-top: 5px;
+  line-height: 20px;
+}
+
+input.senha{
+  height: 40px;
+  width: 300px;
+  font-size: 18px;
+  border: 1px solid #0000005E;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+.espaco{
+  padding-right: 8px;
+  position: relative;
+  top: 2px;
+}
+
+.submit{
+  color: #FFF;
+  background-color: #4EA926;
+  text-decoration: none;
+  padding: 15px 90px;
+  border-radius: 10px;
+}
+
+.esqueceu{
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-decoration: none;
+}
+
+.esqueceu a {
+  text-decoration: none;
+  color: #4EA926;
+  font-size: small;
+}
+
+.cor{
+  color: #898989;
+  text-align: left;
+  padding-left: 50px;
+}
+.feather-5{
+  padding-right: 10px;
+  position: relative;
+  top: 5px;
+}
